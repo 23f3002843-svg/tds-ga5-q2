@@ -5,8 +5,8 @@ app = FastAPI()
 
 
 class ProrationRequest(BaseModel):
-old_price: float
-new_price: float
+  old_price: float
+  new_price: float
 days_remaining: float
 days_in_actual_month: float
 spec: str
